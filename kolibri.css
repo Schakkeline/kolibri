@@ -193,14 +193,9 @@ a, a:hover, a:active, a:focus, a:visited {
 	.small {
 		font-size: 30px;
 	}
-
 	.big {
 		display: none;
 	}
-
-	.gradient {
-	  height: 100px !important;
-  }
 }
 
 .index img {

@@ -53,6 +53,15 @@ a, a:hover, a:active, a:focus, a:visited {
   background-color: #C23487;
 }
 
+.navbar-inverse,.navbar-inverse .navbar-toggle {
+	border-color: #fff;
+}
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+  background-color: #c25795;
+}
+
 .navbar-inverse .navbar-brand {
   color: #fff;
   font-family: 'DolceLight';
@@ -80,6 +89,16 @@ a, a:hover, a:active, a:focus, a:visited {
 .navbar-inverse .navbar-nav>.open>a:hover {
   background-color: #c25795;
   color: #fff;
+}
+
+.dropdown-menu {
+  border: 1px solid #C23487;
+}
+
+@media (max-width: 767px){
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+	}
 }
 
 /***********************************************************
@@ -289,4 +308,9 @@ a, a:hover, a:active, a:focus, a:visited {
 	color: #214C4F;
 	font-size: 14px;
 	margin: 10px 15px;
+}
+
+.img-circle {
+	width: 200px;
+  height: 200px;
 }

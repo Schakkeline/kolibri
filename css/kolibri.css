@@ -290,6 +290,26 @@ a, a:hover, a:active, a:focus, a:visited {
 	font-size: 18px;
 }
 
+.highlight, .fit {
+    color:#C23487;
+}
+
+.gesund {
+  color: #214C4F;
+}
+
+td:first-child, tr:first-child { 
+  color: #64EAF6;
+  font-family: 'DolceLight';
+  font-size: xx-large;
+}
+
+td {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
 .impressum-distributed .impressum {
 	font-family: 'DolceLight';
 	display: inline-block;

@@ -135,7 +135,7 @@ a, a:hover, a:active, a:focus, a:visited {
 	width:20%;
 }
 
-.footer-distributed .footer-center p, 
+.footer-distributed .footer-center p,
 .footer-distributed .footer-center p a{
 	display: inline-block;
 	color: #214C4F;
@@ -191,6 +191,26 @@ a, a:hover, a:active, a:focus, a:visited {
  * CONTENT
  *
  * ********************************************************/
+ .full-screen {
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+ }
+
+#mycarousel {
+  margin-top:-40px !important;
+}
+
+.carousel-caption h3 {
+  display: inline-block;
+  padding: 10px;
+  background: #C23487;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: white;
+}
+
+
 @media (max-width: 993px) {
 	.kolibri-container {
 		margin-top: 150px;
@@ -231,7 +251,6 @@ a, a:hover, a:active, a:focus, a:visited {
 }
 
 .gradient {
-	height: 200px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(to right, #214C4F, #64EAF6);
@@ -294,11 +313,17 @@ a, a:hover, a:active, a:focus, a:visited {
     color:#C23487;
 }
 
+span.sonder {
+  color:#C23487;
+  font-family: 'DolceLight';
+	font-size: 24px;
+}
+
 .gesund {
   color: #214C4F;
 }
 
-td:first-child, tr:first-child { 
+td:first-child, tr:first-child {
   color: #64EAF6;
   font-family: 'DolceLight';
   font-size: xx-large;
@@ -316,7 +341,7 @@ td {
 	vertical-align: top;
 }
 
-.impressum-distributed .impressum p, 
+.impressum-distributed .impressum p,
 .impressum-distributed .impressum p a{
 	display: inline-block;
 	color: #214C4F;

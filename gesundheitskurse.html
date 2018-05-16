@@ -1,112 +1,162 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Zentrum für Bewegung und Ernährung">
-    <meta name="keywords" content="kolibri, aktiv, bewegung, ernährung, personaltraining, ernährungsberatung" />
-    <title>Kolibri aktiv</title>
-    <link rel="shortcut icon" href="img/kolibri-icon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/kolibri.css">
-    <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Zentrum für Bewegung und Ernährung">
+  <meta name="keywords" content="kolibri, aktiv, bewegung, ernährung, personaltraining, ernährungsberatung" />
+  <title>Kolibri aktiv</title>
+  <link rel="shortcut icon" href="img/kolibri-icon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/kolibri.css">
+  <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
+</head>
+<body>
 
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">Kolibri aktiv</a>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Kolibri aktiv</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active" class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Kursangebot<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="gesundheitskurse.html">Gesundheitskurse</a></li>
+              <li><a href="fitnesskurse.html">Fitnesskurse</a></li>
+            </ul>
+          </li>
+          <li><a href="kursplan.html">Kursplan</a></li>
+          <li><a href="erneahrungsberatung.html">Ern&auml;hrungsberatung</a></li>
+          <li><a href="personaltraining.html">Personaltraining</a></li>
+          <li><a href="gesunheitsvortraege.html">Gesundheitsvortr&auml;ge</a></li>
+          <li><a href="firmenfitness.html">Firmenfitness</a></li>
+          <li><a href="uebermich.html">&Uuml;ber mich</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div id="mycarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#mycarousel" data-slide-to="1"></li>
+      <li data-target="#mycarousel" data-slide-to="2"></li>
+      <li data-target="#mycarousel" data-slide-to="3"></li>
+      <li data-target="#mycarousel" data-slide-to="4"></li>
+      <li data-target="#mycarousel" data-slide-to="5"></li>
+      <li data-target="#mycarousel" data-slide-to="6"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item">
+        <img src="img/gesund/gesund1.jpg" data-color="lightblue" alt="First Image">
+      </div>
+      <div class="item">
+        <img src="img/gesund/gesund2.jpg" data-color="firebrick" alt="Second Image">
+      </div>
+      <div class="item">
+        <img src="img/gesund/gesund3.jpg" data-color="violet" alt="Third Image">
+      </div>
+      <div class="item">
+        <img src="img/gesund/gesund4.jpg" data-color="lightgreen" alt="Fourth Image">
+      </div>
+      <div class="item">
+        <img src="img/gesund/gesund5.jpg" data-color="tomato" alt="Fifth Image">
+      </div>
+        <div class="item">
+          <img src="img/gesund/gesund6.jpg" data-color="tomato" alt="Fifth Image">
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active" class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Kursangebot<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="gesundheitskurse.html">Gesundheitskurse</a></li>
-                <li><a href="fitnesskurse.html">Fitnesskurse</a></li>
-              </ul>
-            </li>
-            <li><a href="kursplan.html">Kursplan</a></li>
-            <li><a href="erneahrungsberatung.html">Ern&auml;hrungsberatung</a></li>
-            <li><a href="personaltraining.html">Personaltraining</a></li>
-            <li><a href="gesunheitsvortraege.html">Gesundheitsvortr&auml;ge</a></li>
-            <li><a href="firmenfitness.html">Firmenfitness</a></li>
-            <li><a href="uebermich.html">&Uuml;ber mich</a></li>
-          </ul>
+        <div class="item">
+          <img src="img/gesund/gesund9.jpg" data-color="tomato" alt="Fifth Image">
         </div>
       </div>
-    </nav>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 
     <div class="container kolibri-container">
       <div class="centered">
         <h1 class="gradient big">Gesundheitskurse</h1>
         <h1 class="gradient small">Gesundheitskurse</h1>
       </div>
+
       <div class="col-md-6 col-xs-12">
         <h2>Faszien-Training</h2>
         <p>
-        Das Training mit der Blackroll ist für Mitglieder jeden Alters und Niveaus 
-        geeignet. Mit einfachen Übungen und Selbstmassage der Muskeln und Faszien 
-        werden Flexibilität, Balance und Mobilität verbessert. Auch Muskelschmerzen 
-        wird vorgebeugt. Das Faszientraining verbindet Kräftigung und Regeneration.
+          Das Training mit der Blackroll ist für Mitglieder jeden Alters und Niveaus
+          geeignet. Mit einfachen Übungen und Selbstmassage der Muskeln und Faszien
+          werden Flexibilität, Balance und Mobilität verbessert. Auch Muskelschmerzen
+          wird vorgebeugt. Das Faszientraining verbindet Kräftigung und Regeneration.
         </p>
       </div>
       <div class="col-md-6 col-xs-12">
         <h2>Haltungs- und Bewegungsschule</h2>
         <p>
-        Die Haltungs- und Bewegungsschule setzt sich aus zwei Teilen zusammen. Zum 
-        einen geht es hier um die Kräftigung der Körpermitte mit diversen 
-        Kleingeräten. Zum anderen wird speziell auf alltägliche Situationen 
-        eingegangen, vor allem die Themen Heben und Tragen, Ziehen und Schieben 
-        und Sitzen und Stehen. Auch die Einrichtung des Arbeitsplatzes 
-        wird hier behandelt.
+          Die Haltungs- und Bewegungsschule setzt sich aus zwei Teilen zusammen. Zum
+          einen geht es hier um die Kräftigung der Körpermitte mit diversen
+          Kleingeräten. Zum anderen wird speziell auf alltägliche Situationen
+          eingegangen, vor allem die Themen Heben und Tragen, Ziehen und Schieben
+          und Sitzen und Stehen. Auch die Einrichtung des Arbeitsplatzes
+          wird hier behandelt.
         </p>
       </div>
       <div class="col-md-6 col-xs-12">
         <hr>
         <h2>Medical Nordic Walking</h2>
         <p>
-        Medical Nordic Walking gilt als eine der gesündesten Sportarten überhaupt. 
-        Die schwungvolle Bewegung beansprucht Herz und Kreislauf, regt den 
-        Stoffwechsel an, stärkt die Muskulatur von Armen, Schultern und Rücken und 
-        rückt überschüssigen Pfunden zu Leibe. Durch die Ausdauerbelastung kann das 
-        Risiko für zahlreiche typische Alltagsbelastungen gesenkt werden. 
-        Beispielsweise für Osteoporose, Herz-Kreislauf-Krankheiten wie Bluthochdruck, 
-        Diabetes und Rückenschmerzen. Außerdem macht Laufen in der Gruppe einfach mehr 
-        Spaß.<br>
-        Zu diesem Kurs bringen Sie bitte immer festes Schuhwerk (Laufschuhe oder Trekkingschuhe) mit und kleiden sich entsprechend der Temperaturen.<br>
-        <span class="gesundheitskurse"><b>Anfänger:</b> Erlernen der Hauptbewegungsmerkmale</span><br>
-        <span class="gesundheitskurse"><b>Fortgeschrittene:</b> Verbesserung der Technik</span>
+          Medical Nordic Walking gilt als eine der gesündesten Sportarten überhaupt.
+          Die schwungvolle Bewegung beansprucht Herz und Kreislauf, regt den
+          Stoffwechsel an, stärkt die Muskulatur von Armen, Schultern und Rücken und
+          rückt überschüssigen Pfunden zu Leibe. Durch die Ausdauerbelastung kann das
+          Risiko für zahlreiche typische Alltagsbelastungen gesenkt werden.
+          Beispielsweise für Osteoporose, Herz-Kreislauf-Krankheiten wie Bluthochdruck,
+          Diabetes und Rückenschmerzen. Außerdem macht Laufen in der Gruppe einfach mehr
+          Spaß.<br>
+          Zu diesem Kurs bringen Sie bitte immer festes Schuhwerk (Laufschuhe oder Trekkingschuhe) mit und kleiden sich entsprechend der Temperaturen.<br>
+          <span class="gesundheitskurse"><b>Anfänger:</b> Erlernen der Hauptbewegungsmerkmale</span><br>
+          <span class="gesundheitskurse"><b>Fortgeschrittene:</b> Verbesserung der Technik</span>
         </p>
       </div>
       <div class="col-md-6 col-xs-12">
         <hr>
         <h2>Sturzprophylaxe</h2>
         <p>
-        Jeder stürzt hin und wieder. Je älter man wird, desto eher stolpert man oder kann sich 
-        nicht mehr so gut abfangen. Die Sturzprophylaxe beugt dem mit einem Kraft- und 
-        Balancetraining vor. Außerdem werden die sensomotorischen und kognitiven Fähigkeiten 
-        mit diversen Übungen geschult.
+          Jeder stürzt hin und wieder. Je älter man wird, desto eher stolpert man oder kann sich
+          nicht mehr so gut abfangen. Die Sturzprophylaxe beugt dem mit einem Kraft- und
+          Balancetraining vor. Außerdem werden die sensomotorischen und kognitiven Fähigkeiten
+          mit diversen Übungen geschult.
         </p>
       </div>
       <div class="col-md-6 col-xs-12">
         <hr>
-        <h2>Entspannung</h2>
+        <h2>Yoga und Entspannung</h2>
         <p>
-        Zuhause ist es oft schwierig sich aus dem Alltag raus zu nehmen. Irgendwas 
-        hat man schließlich immer zu tun. In dem Entspannungskurs haben Sie eine 
-        Stunde, in der Sie sich nur Ihnen widmen dürfen. In einer angenehmen ruhigen 
-        Atmosphäre lernen Sie viele verschiedene Entspannungstechniken kennen, wie 
-        zum Beispiel progressive Muskelrelaxation, autogenes Training, 
-        Stillemeditation und Weitere. 
+          Zuhause fällt es einem oft schwer sich zu entspannen oder sich eine Auszeit zu nehmen.
+          In dem Yoga und Entspannungskurs haben Sie eine Stunde, in der Sie sich nur Ihnen widmen dürfen.
+          In einer angenehmen ruhigen Atmosphäre erlernen Sie diverse Yoga Übungen.
+          Im zweiten Teil der Stunde lernen Sie verschiedene Entspannungstechniken kennen.
+          Hier liegen die Schwerpunkte auf autogenem Training und progressiver Muskelrelaxation.
         </p>
       </div>
     </div>
@@ -135,8 +185,8 @@
       </div>
       <div class="footer-right">
         <p class="footer-company-about">
-        <span>&Uuml;ber Kolibri aktiv:</span><br>
-          Fit und aktiv durchs Leben mit abwechslungsreichen Fitness- und 
+          <span>&Uuml;ber Kolibri aktiv:</span><br>
+          Fit und aktiv durchs Leben mit abwechslungsreichen Fitness- und
           Gesundheitskursen.
         </p>
         <p class="footer-company-name">
@@ -150,16 +200,17 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 
+    <script type="text/javascript" src="js/kolibri.js"></script>
+
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-90681812-1', 'auto');
-  ga('send', 'pageview');
+    ga('create', 'UA-90681812-1', 'auto');
+    ga('send', 'pageview');
 
-</script>
+    </script>
   </body>
-</html>
-
+  </html>

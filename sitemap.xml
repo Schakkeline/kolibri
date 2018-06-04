@@ -6,60 +6,77 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
-  <loc>http://www.kolibriaktiv.de/</loc>
-  <lastmod>2017-01-25T21:29:46+00:00</lastmod>
+  <loc>https://www.kolibriaktiv.de/</loc>
+  <lastmod>2018-05-21T11:05:13+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://www.kolibriaktiv.de/index.html</loc>
-  <lastmod>2017-01-25T21:29:46+00:00</lastmod>
+  <loc>https://www.kolibriaktiv.de/index.html</loc>
+  <lastmod>2018-05-21T11:05:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.kolibriaktiv.de/gesundheitskurse.html</loc>
-  <lastmod>2017-01-25T21:29:38+00:00</lastmod>
+  <loc>https://www.kolibriaktiv.de/gesundheitskurse.html</loc>
+  <lastmod>2018-05-21T11:05:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.kolibriaktiv.de/fitnesskurse.html</loc>
-  <lastmod>2017-01-25T21:29:36+00:00</lastmod>
+  <loc>https://www.kolibriaktiv.de/fitnesskurse.html</loc>
+  <lastmod>2018-05-21T11:05:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.kolibriaktiv.de/kursplan.html</loc>
-  <lastmod>2017-01-25T21:29:48+00:00</lastmod>
+  <loc>https://www.kolibriaktiv.de/kursplan.html</loc>
+  <lastmod>2018-05-21T11:05:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.kolibriaktiv.de/erneahrungsberatung.html</loc>
-  <lastmod>2017-01-25T21:29:30+00:00</lastmod>
+  <loc>https://www.kolibriaktiv.de/erneahrungsberatung.html</loc>
+  <lastmod>2018-05-21T11:05:14+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.kolibriaktiv.de/personaltraining.html</loc>
-  <lastmod>2017-01-25T21:29:50+00:00</lastmod>
+  <loc>https://www.kolibriaktiv.de/personaltraining.html</loc>
+  <lastmod>2018-05-21T11:05:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.kolibriaktiv.de/gesunheitsvortraege.html</loc>
-  <lastmod>2017-01-25T21:29:40+00:00</lastmod>
+  <loc>https://www.kolibriaktiv.de/gesunheitsvortraege.html</loc>
+  <lastmod>2018-05-21T11:05:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.kolibriaktiv.de/firmenfitness.html</loc>
-  <lastmod>2017-01-25T21:29:34+00:00</lastmod>
+  <loc>https://www.kolibriaktiv.de/firmenfitness.html</loc>
+  <lastmod>2018-05-21T11:05:14+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.kolibriaktiv.de/uebermich.html</loc>
-  <lastmod>2017-01-25T21:29:57+00:00</lastmod>
+  <loc>https://www.kolibriaktiv.de/uebermich.html</loc>
+  <lastmod>2018-05-21T11:05:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.kolibriaktiv.de/schnuppertage.html</loc>
-  <lastmod>2017-01-25T21:29:53+00:00</lastmod>
+  <loc>https://www.kolibriaktiv.de/impressum.html</loc>
+  <lastmod>2018-05-21T11:05:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.kolibriaktiv.de/impressum.html</loc>
-  <lastmod>2017-01-25T21:29:43+00:00</lastmod>
+  <loc>https://www.kolibriaktiv.de/datenschutz.html</loc>
+  <lastmod>2018-05-21T17:46:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.kolibriaktiv.de/agbs.html</loc>
-  <lastmod>2017-01-25T21:29:28+00:00</lastmod>
+  <loc>https://www.kolibriaktiv.de/agbs.html</loc>
+  <lastmod>2018-05-21T11:05:14+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.kolibriaktiv.de/swissparalympic.html</loc>
-  <lastmod>2017-01-25T21:29:55+00:00</lastmod>
+  <loc>https://www.kolibriaktiv.de/swissparalympic.html</loc>
+  <lastmod>2018-05-21T11:05:12+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
+
+
 </urlset>

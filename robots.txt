@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /logs/
+Sitemap: https://www.kolibriaktiv.de/sitemap.xml

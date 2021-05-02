@@ -44,12 +44,17 @@ a, a:hover, a:active, a:focus, a:visited {
 }
 
 .bg-pink {
-  background-color: #C23487;
-  color: #fff;
+  color: #C23487;
+  border-radius: 4px;
+  border: 1px solid #C23487;
 }
 
 .bg-pink a {
   color: #214C4F;
+}
+
+.bg-pink li {
+  color: black;
 }
 
 /***********************************************************
